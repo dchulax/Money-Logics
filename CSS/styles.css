@@ -39,3 +39,26 @@ header{
 .carousel-caption{
   bottom: 40%;
 }
+.row{
+  margin: 0;
+}
+.col-sm-12, .col-md-6{
+  padding: 0;
+}
+/*About-us Content */
+.about{
+  align-content: center;
+}
+.about-content{
+  font-weight: 400;
+  font-size: 20px;
+  padding: 20px;
+}
+.about > h1, h2{
+  text-align: center;
+  margin-top: 10px;
+  width: 60%;
+  padding-left: 20px;
+  background: #699ee3;
+  border-radius: 20px;
+}
