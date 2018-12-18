@@ -2,10 +2,10 @@
 
 ## Project Author :
 
-KEVIN MOKORO
-Tobias Orao
-Maxwel Nyadiero
-Joel Mckenzie
+-   KEVIN MOKORO
+-   TOBIAS ORAO
+-   MAXWEL NYADIERO
+-   JOEL MCKENZIE
 
 ## Project description :
 
@@ -35,7 +35,8 @@ Finance management.Help user practice good money skills.
 2.  Provide a user with an easy intergration of his/her expenditure and provide them with their saving based on their income input.
 3.  Alert user if previous saving/expenditure is more or less than their current.
 4.  Be able to have a target and display their target total throughout a give period.
-    ### support and contact details :
+
+### support and contact details :
 
 moneylogic.com or send message to 0701957703
 
@@ -45,7 +46,7 @@ If you notice any changes that are necessary,discuss the changes with the email 
 
 #### Copyright and license
 
-Copyright &lt;2018> <Money Logic>
+Copyright <2018> <Money Logic>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
