@@ -1,10 +1,4 @@
-<<<<<<< HEAD
-h1{
-  color: #4BC377;
-  font-size: 30px;
-  text-align: center;
-  text-decoration: underline;
-=======
+
 *{
   margin: 0;
 }
@@ -16,7 +10,7 @@ body{
 padding: 0;
 }
 header{
-  background: #4bc377;
+  background: rgba(0,0,0,0.5);
   padding: 0 20px;
   width:100%;
   display: flex;
@@ -68,5 +62,18 @@ header{
   padding-left: 20px;
   background: #699ee3;
   border-radius: 20px;
->>>>>>> master
+}
+button{
+  color: orange;
+}
+h1{
+    color: green;
+  text-align: center;
+  text-decoration: underline;
+  padding: 30px;
+  font-size: 30px;
+}
+body{
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 50px;
 }
