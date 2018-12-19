@@ -57,8 +57,33 @@ header{
 .about > h1, h2{
   text-align: center;
   margin-top: 10px;
-  width: 60%;
   padding-left: 20px;
   background: #699ee3;
   border-radius: 20px;
+}
+
+/*Contact us*/
+.contact-us{
+  background: rgba(105,158,227, 0.6);
+}
+.contact {
+  padding-top: 30%;
+  margin:20px auto 0;
+  display:flex;
+  width: 400px;
+}
+.contact .box{
+  margin-left: 40px;
+  position: relative;
+  clear: right;
+  width: 400px;
+  font-size: 30px;
+  overflow:hidden;
+}
+.contact .details{
+  padding-left: 20px;
+}
+.side .responsive{
+  -webkit-clip-path: polygon(20% 0, 100% 0%, 100% 100%, 0% 100%);
+clip-path: polygon(20% 0, 100% 0%, 100% 100%, 0% 100%);
 }
