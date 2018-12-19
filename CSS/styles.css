@@ -1,3 +1,4 @@
+
 *{
   margin: 0;
 }
@@ -9,7 +10,7 @@ body{
 padding: 0;
 }
 header{
-  background: #4bc377;
+  background: rgba(0,0,0,0.5);
   padding: 0 20px;
   width:100%;
   display: flex;
@@ -61,6 +62,21 @@ header{
   background: #699ee3;
   border-radius: 20px;
 }
+<<<<<<< HEAD
+button{
+  color: orange;
+}
+h1{
+    color: green;
+  text-align: center;
+  text-decoration: underline;
+  padding: 30px;
+  font-size: 30px;
+}
+body{
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 50px;
+=======
 
 /*Contact us*/
 .contact-us{
@@ -86,4 +102,5 @@ header{
 .side .responsive{
   -webkit-clip-path: polygon(20% 0, 100% 0%, 100% 100%, 0% 100%);
 clip-path: polygon(20% 0, 100% 0%, 100% 100%, 0% 100%);
+>>>>>>> master
 }
