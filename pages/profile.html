@@ -21,15 +21,18 @@
       <h2> Account name: </h2>
     </div>
     <div class="row">
-      <div class="form-group">
-        <label for="initial income">initial Income</label>
-        <input type="text" class="form-control" id="Initial Income">
+      <div id="col-md-6">
+        <div class="form-group">
+          <label for="initial income">initial Income</label>
+          <input type="text" class="form-control" id="Initial Income">
+        </div>
       </div>
+      <div id="col-md-6">
         <div class="form-group">
           <label for="Projected Expenditure">Projected Expenditure</label>
           <input type="text" class="form-control" id="Projected Expenditure">
         </div>
-
+      </div>
     </div>
     <div class="row">
 
@@ -39,16 +42,22 @@
             <label for="new-first-Income"> Income </label>
             <input type="text" class="form-control" id="income">
           </div>
-          <div class="form-group">
-            <label for="saving"> Saving </label>
-            <input type="text" class="form-control Saving">
-          </div>
       </div>
       <div class="col-md-6">
         <div class="form-group">
           <label for="Expenditure"> Expenditure </label>
           <input type="text" class="form-control Expenditure">
         </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="saving"> Saving </label>
+          <input type="text" class="form-control Saving">
+        </div>
+      </div>
+      <div class="col-md-6">
         <div class="form-group">
           <label for="target"> Target </label>
           <input type="text" class="form-control" id="target">
@@ -56,12 +65,14 @@
 
         </div>
       </div>
+
       </form>
+      <div class="col-md-6">
+        <button type="Add" class="btn"> Add</button>
+        <button type="Remove" class="btn"> Remove</button>
+        <button type="submit" class="btn">Submit</button>
+      </div>
     </div>
-    <button type="Add" class="btn"> Add</button>
-    <button type="Remove" class="btn"> Remove</button>
-    <button type="submit" class="btn">Submit</button>
-  </div>
 </body>
 
 </html>
