@@ -2,63 +2,46 @@
 <html>
 
 <head>
-   <link rel="stylesheet" href="css/styles.css" type="text/css">
-  <title>Money Logics</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></scrip
+  <title>Money-Logics</title>
 </head>
 
 <body>
-  <h1><strong>Money-Logics</strong></h1>
-  <p><em>This application helps users to truck how they do spend their money and evenly save from their basic income,which by helps people to meet their target in saving</em></p>
-  <table class="table">
-    <thread>
-      <tr>
-        <th scope="col">#</th>
-        <th scope="col"> Income</th>
-        <th scope="col"> Expenditure</th>
-        <th scope="col"> Saving</th>
-        <th scope="col">  Target</th>
-      </tr>
-    </thread>
-    <tr>
-      <th scope="row">1</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-    <td scope="col">3</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td scope="col">4</td>
-    <td></td>
-    <td> </td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td scope="col">5</td>
-    <td>Grand-Total</td>
-    <td> Grand-Total</td>
-    <td>Grand-Total</td>
-    <td>Grand-Total</td>
-  </tr>
+  <div class="container">
+    <h1>Money-Logics</h1>
 
+    <div class="row">
 
+      <div class="col-md-6">
+        <form id="new-income">
+          <div class="form-group">
+            <label for="new-first-Income">Income</label>
+            <input type="text" class="form-control" id="income">
+          </div>
 
+          <div class="form-group">
+            <label for="saving">Saving</label>
+            <input type="text" class="form-control Saving">
+          </div>
+      </div>
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="Expenditure">Expenditure</label>
+          <input type="text" class="form-control Expenditure">
+        </div>
 
+      <div class="form-group">
+        <label for="target">Target</label>
+        <input type="text" class="form-control" id="target">
 
+      </div>
+    </div>
+      <button type="submit" class="btn">submit</button>
+      </form>
+    </div>
+</body>
 
-</table>
-  </body>
-  </html>
+</html>
