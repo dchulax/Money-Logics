@@ -1,45 +1,44 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
 <head>
   <meta charset="utf-8">
   <title>Money Logics</title>
+  <!--Bootstrap CDN-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!--Custom CSS-->
+  <link rel="stylesheet" href="sign-up.css">
+  <!--jQuery CDN-->
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+  </script>
+  <!--Custom JS -->
+  <script src="JS/scripts.js" charset="utf-8"></script>
 </head>
 
 <body>
-  <div class="container">
-    <h2>signup-here</h2>
-    <form id="signup">
-      <div class="form-signup">
-        <label for="names">Full-Names:</label>
-        <input type="text" class="form-control">
-      </div>
-      <div class="form-signup">
-        <label for="email">Email:</label>
-        <input type="email" class="form-control">
-      </div>
-      <div class="form-signup">
-        <label for="contact">Tel:</label>
-        <input type="number" class="form-control">
-      </div>
-      <div class="form-signup">
-        <label for="work">Occupation:</label>
-        <input type="" class="form-control">
-      </div>
-      <div class="Age">
-        <select name="Age">
-          <option>student(below 18)</option><br>
-          <option>18-33</option><br>
-          <option>45-65</option><br>
-        </select>
-      </div>
-      <div class="gender">
-        <select name="gender">
-          <option>Gender</option>
-          <option>Male</option>
-          <option>Female</option>
-        </select>
-      </div>
-      <button type="submit" class="btn-submit">Submit</button>
+  <div class="jumbotron">
+    <h2 class="panel panel-title">sign-up</h2>
+    <form id="sign">
+      <label for="names">Full-Names:</label>
+      <input type="text" class="form-control" placeholder="Name">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" placeholder="Email-address">
+      <label for="contact">Telephone:</label>
+      <input type="tel" class="form-control" placeholder="contact">
+      <label for="work">Occupation:</label>
+      <input type="" class="form-control" placeholder="Occupation">
+      <select name="Age">
+        <option value="age"><strong>age</strong></option>
+        <option>student(bel/home/student/Documents/Money-Logics/pages/signup.htmlow 18)</option><br>
+        <option>18-33</option><br>
+        <option>45-65</option><br>
+      </select><br>
+      <select name="gender">
+        <option><strong>gender</strong></option>
+        <option>Male</option>
+        <option>Female</option>
+      </select><br>
+      <button type="submit" class="btn btn-success">Submit</button>
     </form>
   </div>
 </body>
