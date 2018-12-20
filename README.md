@@ -29,7 +29,7 @@ Use the link below to _VISIT SITE_ : [github](https://kevinmokoro.github.io/Mone
 
 Finance management.Help user practice good money skills.
 
-#### BDD
+#### Behavior Driven Development (BDD)
 
 1.  Be able to collect user's  sign-up credentials.
 2.  Provide a user with an easy intergration of his/her expenditure and provide them with their saving based on their income input.
