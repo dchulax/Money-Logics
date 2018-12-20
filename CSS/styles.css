@@ -85,7 +85,7 @@ header{
   width: auto;
 }
 
-.btn-submit {
+#sign .btn-submit {
   border: 0;
   cursor: pointer;
   text-transform: uppercase;
@@ -133,7 +133,4 @@ body{
 .side .responsive{
   -webkit-clip-path: polygon(20% 0, 100% 0%, 100% 100%, 0% 100%);
 clip-path: polygon(20% 0, 100% 0%, 100% 100%, 0% 100%);
-}
-body > #sign {
-  background-image: url("img/lk.jpg");
 }
