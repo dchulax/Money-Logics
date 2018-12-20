@@ -102,4 +102,12 @@ button{
 }
 #body{
   background-color: rgba(105,158,227, 0.6);
+  border-radius: 30px;
+}
+.jumbotron{
+  color: red;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 50px;
+  font-style: italic;
 }
