@@ -20,24 +20,25 @@
       <h1> Money - Logics </h1>
       <h2> Account name: </h2>
     </div>
+    <form id="savings">
     <div class="row">
       <div id="col-md-6">
         <div class="form-group">
           <label for="initial income">initial Income</label>
-          <input type="text" class="form-control" id="Initial Income">
+          <input type="text" class="form-control" id="Initial" value="0">
         </div>
       </div>
       <div id="col-md-6">
         <div class="form-group">
           <label for="Projected Expenditure">Projected Expenditure</label>
-          <input type="text" class="form-control" id="Projected Expenditure">
+          <input type="text" class="form-control" id="projected" value="0">
         </div>
       </div>
     </div>
     <div class="row">
 
       <div class="col-md-6">
-        <form id="new-income">
+
           <div class="form-group">
             <label for="new-first-Income"> Income </label>
             <input type="text" class="form-control" id="income">
@@ -46,7 +47,7 @@
       <div class="col-md-6">
         <div class="form-group">
           <label for="Expenditure"> Expenditure </label>
-          <input type="text" class="form-control Expenditure">
+          <input type="text" class="form-control" id="Expenditure" value="0">
         </div>
       </div>
     </div>
@@ -54,7 +55,7 @@
       <div class="col-md-6">
         <div class="form-group">
           <label for="saving"> Saving </label>
-          <input type="text" class="form-control Saving">
+          <input type="text" class="form-control" id="Saving">
         </div>
       </div>
       <div class="col-md-6">
@@ -65,12 +66,10 @@
 
         </div>
       </div>
-
+      <button type="submit" class="btn" id="submit" onclick="xx()">Submit</button>
       </form>
       <div class="col-md-6">
-        <button type="Add" class="btn"> Add</button>
-        <button type="Remove" class="btn"> Remove</button>
-        <button type="submit" class="btn">Submit</button>
+
       </div>
     </div>
 </body>
