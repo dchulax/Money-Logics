@@ -1,4 +1,5 @@
 
+
 //function targeted (save, target) {
 //  if (target < save)
 //  {
@@ -27,9 +28,9 @@ function xx (){
   event.preventDefault();
 }
 
-function yy (){
-  var xx = document.getElementById('Initial').value;
-  var vv = document.getElementById('Expenditure').value;
-  var kk = yy-vv
-  document.getElementById('Saving').value = kk;
-}
+//function yy (){
+//  var xx = document.getElementById('Initial').value;
+  //var vv = document.getElementById('Expenditure').value;
+  //var kk = yy-vv
+  //document.getElementById('Saving').value = kk;
+//S}

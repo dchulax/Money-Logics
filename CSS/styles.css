@@ -62,21 +62,7 @@ header{
   background: #699ee3;
   border-radius: 20px;
 }
-<<<<<<< HEAD
-button{
-  color: orange;
-}
-h1{
-    color: green;
-  text-align: center;
-  text-decoration: underline;
-  padding: 30px;
-  font-size: 30px;
-}
-body{
-  background-color: rgba(0,0,0,0.5);
-  border-radius: 50px;
-=======
+
 
 /*Contact us*/
 .contact-us{
@@ -102,5 +88,26 @@ body{
 .side .responsive{
   -webkit-clip-path: polygon(20% 0, 100% 0%, 100% 100%, 0% 100%);
 clip-path: polygon(20% 0, 100% 0%, 100% 100%, 0% 100%);
->>>>>>> master
+}
+#col-md-6{
+  color: blue;
+  text-align: center;
+}
+.col-md-6{
+  color: blue;
+  text-align: center;
+}
+button{
+  color: orange;
+}
+#body{
+  background-color: rgba(105,158,227, 0.6);
+  border-radius: 30px;
+}
+.jumbotron{
+  color: red;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 50px;
+  font-style: italic;
 }
