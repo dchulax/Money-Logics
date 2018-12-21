@@ -1,14 +1,14 @@
 $(document).ready(function() {
   $("#formic form").submit(function(event) {
 
-    var name = $('#name').val();
+    var name = $('#naal();
     var email = $('#email').val();
     var password = $('#password').val();
     var conpassword = $('#conpassword').val();
     var Occupation = $('#work').val();
     var contact = $('#tel').val();
     var age = $('#agez').val();
-    v = [name, email, password, conpassword, Occupation, contact, age]
+    var data = [name, email, password, conpassword, Occupation, contact, age]
     event.preventDefault()
 
     if (name == '' || email == '' || Occupation == '' || password == '' || conpassword == '' || contact == '') {
