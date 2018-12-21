@@ -13,11 +13,11 @@ $(document).ready(function() {
 
     if (name == '' || email == '' || Occupation == '' || password == '' || conpassword == '' || contact == '') {
       alert("invalid insert all fields");
-      $("form")[0].reset();
+      $("form")[0].r
     }
     else if (password !== conpassword) {
       alert("entered different password, please re-enter correct matching password");
-      $("form")[0]
+      $("form")[0].reset();
     }
     else {
       alert('Welcome to new experience of greatness..')
