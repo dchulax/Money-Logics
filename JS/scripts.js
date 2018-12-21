@@ -8,12 +8,12 @@ $(document).ready(function() {
     var Occupation = $('#work').val();
     var contact = $('#tel').val();
     var age = $('#agez').val();
-    var data = [name, email, password, conpassword, Occupation, contact, age]
+    v = [name, email, password, conpassword, Occupation, contact, age]
     event.preventDefault()
 
     if (name == '' || email == '' || Occupation == '' || password == '' || conpassword == '' || contact == '') {
       alert("invalid insert all fields");
-      $("form")[0].r
+      $("form")[0].reset();
     }
     else if (password !== conpassword) {
       alert("entered different password, please re-enter correct matching password");
