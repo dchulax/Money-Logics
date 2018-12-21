@@ -21,7 +21,7 @@ $(document).ready(function() {
     }
     else {
       alert('Welcome to new experience of greatness....')
-      alert(data);
+    
     }
 
 
