@@ -20,8 +20,7 @@ $(document).ready(function() {
       $("form")[0].reset();
     }
     else {
-      alert('Welcome to new experience of greatness....')
-    
+      alert('Welcome to new experienc
     }
 
 
