@@ -17,10 +17,11 @@ $(document).ready(function() {
     }
     else if (password !== conpassword) {
       alert("entered different password, please re-enter correct matching password");
-      $("form")[0].reset();
+      $("form")[0]
     }
     else {
-      alert('Welcome to new experienc
+      alert('Welcome to new experience of greatness..')
+      alert(data);
     }
 
 
